@@ -1,0 +1,27 @@
+.Box{
+    width: 200px;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.Box:nth-child(1){
+    background-color: #f4eb49;
+
+}  
+
+.Box:nth-child(2){
+    background-color: #ff6624;
+}
+
+.Box:nth-child(3){
+    background-color: #aedd94;
+}
+
+.Box:nth-child(4){
+    background-color: #4dd7fa;
+}
+
+body{
+    display: flex;
+    justify-content:space-evenly ;
+}
